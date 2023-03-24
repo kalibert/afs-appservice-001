@@ -1,3 +1,17 @@
-@baseUrl = http://localhost:3000/
-            
-     get {{baseUrl}}
+  #@baseUrl = http://localhost:3000
+
+    @baseUrl = https://tjk-newwebapp.azurewebsites.net/
+
+      get {{baseUrl}}
+ 
+###
+    get {{baseUrl}}/2
+
+###
+post {{baseUrl}}
+
+{
+  "id": "2",
+  "name": "Alina ",
+  "email": "alina@wp.pl"
+}
