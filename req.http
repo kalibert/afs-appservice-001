@@ -1,6 +1,6 @@
   #@baseUrl = http://localhost:3000
 
-    @baseUrl = https://tjk-newwebapp.azurewebsites.net/
+  @baseUrl = https://tjk-newwebapp.azurewebsites.net/
 
       get {{baseUrl}}
  
